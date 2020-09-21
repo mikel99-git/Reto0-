@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require 'myphp.php'; ?>
+
 <head>
 
 	<title>Series</title>
@@ -12,29 +12,35 @@
 
 		<div id='div9'>
 			<h1>13 REASONS WHY</h1>
+
 		</div>
 		
-		<p id="hola">hola<?php include ('myphp.php'); ?></p>
+		<p id="hola">
+		
+	<?php include ('myphp.php'); ?>
+
+	
+</p>
 	</section>
 
 	<div id="menu">
 		 <div id="colm1">
-               <button  class="button" onclick="location.href='serie.html'" type="button">Description</button>
+               <button  class="button" onclick="location.href='serie.php'" type="button">Description</button>
            </div>
             <div id="colm1">
-               <button  class="button" onclick="location.href='serie_seasons.html'" type="button">Seasons</button>
+               <button  class="button" onclick="location.href='serie_seasons.php'" type="button">Seasons</button>
            </div>
             <div id="colm1">
-               <button  class="button" onclick="location.href='serie actors.html'" type="button">Actors</button>
+               <button  class="button" onclick="location.href='serie actors.php'" type="button">Actors</button>
            </div>
            <div id="colm1">
-               <button  class="button" onclick="location.href='serie_videos.html'" type="button">Videos</button>
+               <button  class="button" onclick="location.href='serie_videos.php'" type="button">Videos</button>
            </div>
            <div id="colm1">
-               <button  class="button" onclick="location.href='serie merch.html'" type="button">Merchandising</button>
+               <button  class="button" onclick="location.href='serie merch.php'" type="button">Merchandising</button>
            </div>
            <div id="colm1">
-               <button  class="button" onclick="location.href='serie_link.html'" type="button">Related Links</button>
+               <button  class="button" onclick="location.href='serie_link.php'" type="button">Related Links</button>
            </div>
 	</div>
 
